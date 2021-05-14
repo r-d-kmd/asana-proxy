@@ -1,0 +1,6 @@
+version 6.0.0-beta8
+source https://api.nuget.org/v3/index.json
+framework: auto-detect
+
+nuget FSharp.Data 4.0.1
+nuget FSharp.Data.TypeProviders
