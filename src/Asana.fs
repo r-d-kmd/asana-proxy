@@ -264,7 +264,7 @@ module Asana =
                                       CreatedDate  = task.Data.CreatedAt.ToString ()
                                       ClosedDate   = match task.Data.CompletedAt with
                                                      | Some date -> date.ToString ()
-                                                     | None -> ""
+                                                     | None -> null
                                       //SprintName  = Seq.head data.Projects |> fun a -> a.Name
                                       SprintName   = Seq.fold (fun acc (p : ProjectTasks.Project) ->
                                         if p.ResourceType = "project" then p.Name else acc) "" task.Data.Projects
