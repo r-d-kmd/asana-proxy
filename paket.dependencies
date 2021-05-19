@@ -4,3 +4,4 @@ framework: auto-detect
 
 nuget FSharp.Data 4.0.1
 nuget FSharp.Data.TypeProviders
+nuget Giraffe 4.1.0
