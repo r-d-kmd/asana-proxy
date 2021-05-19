@@ -1,6 +1,7 @@
 namespace AsanaProxy
 
 open FSharp.Data
+open System.Text.RegularExpressions
 
 module Asana =
     type WorkspaceList = JsonProvider<"""{ "data":[
@@ -201,11 +202,12 @@ module Asana =
     }]""", SampleIsList=true>
 
     type FlatTask = {
-        ProjectName : string
-        CreatedDate : string
-        SprintName  : string
-        ClosedDate  : string
-        Title       : string
+        ProjectName  : string
+        CreatedDate  : string
+        SprintName   : string
+        SprintNumber : System.Nullable<int>
+        ClosedDate   : string
+        Title        : string
     }
 
     let baseURL = "https://app.asana.com/api/1.0/"
@@ -250,19 +252,28 @@ module Asana =
             | Binary bytes -> ProjectTasks.Parse (bytes.ToString ())
 
     let getWorkspaceTasks pat workspaceGID =
+        let SprintNumber sprintName =
+            let m = Regex.Match(sprintName, "Sprint (\d)+")
+            if (m.Success) then Some (int m.Groups.[1].Value) else None
         (getWorkspaceProjects pat workspaceGID).Data 
             |> Seq.fold (fun acc project -> Array.append acc (getProjectTasks pat (string project.Gid)).Data) Array.empty
             |> Seq.fold (fun acc smallTask -> List.append acc [(getTaskExpanded pat (string smallTask.Gid))]) []
             //|> Seq.map (fun task -> task.Data)
             |> Seq.map (fun task -> { Title = task.Data.Name
-                                      ProjectName = task.Data.Workspace.Name
-                                      CreatedDate = task.Data.CreatedAt.ToString ()
-                                      ClosedDate  = match task.Data.CompletedAt with
-                                                    | Some date -> date.ToString ()
-                                                    | None -> ""
+                                      ProjectName  = task.Data.Workspace.Name
+                                      CreatedDate  = task.Data.CreatedAt.ToString ()
+                                      ClosedDate   = match task.Data.CompletedAt with
+                                                     | Some date -> date.ToString ()
+                                                     | None -> ""
                                       //SprintName  = Seq.head data.Projects |> fun a -> a.Name
-                                      SprintName  = Seq.fold (fun acc (p : ProjectTasks.Project) ->
+                                      SprintName   = Seq.fold (fun acc (p : ProjectTasks.Project) ->
                                         if p.ResourceType = "project" then p.Name else acc) "" task.Data.Projects
+                                      SprintNumber = Seq.fold (fun acc (p : ProjectTasks.Project) ->
+                                        if p.ResourceType = "project" then
+                                            match SprintNumber p.Name with
+                                            | Some number -> System.Nullable<int> number
+                                            | None -> (System.Nullable())
+                                        else acc) (System.Nullable()) task.Data.Projects
                                     })
 
             

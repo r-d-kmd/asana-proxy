@@ -17,7 +17,7 @@ module Web =
                       ctx.WriteTextAsync "missing pat"
 
     let endpoints =
-       choose [
+        choose [
             route "/ping" >=> text "pong"
             routef "/items/%s" itemHandler
         ]

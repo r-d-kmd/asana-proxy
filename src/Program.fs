@@ -16,7 +16,14 @@ module Program =
             Web.webServer argv
         | String pat ->
             (Asana.getWorkspaceTasks pat argv.[1])
-            |> Seq.map (fun task -> sprintf "%s - %s - %s - %s - %s\n" task.Title task.ProjectName task.SprintName task.ClosedDate task.SprintName)
+            |> Seq.map (fun task -> sprintf "%s - %s - %s - %s - %s - %A\n"
+                                        task.Title
+                                        task.ProjectName
+                                        task.SprintName
+                                        task.ClosedDate
+                                        task.SprintName
+                                        task.SprintNumber
+                       )
             //|> Seq.map (fun task -> sprintf "%A\n" task)
             |> Seq.fold (fun acc e -> acc + e) ""
             |> printf "%A"
