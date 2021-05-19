@@ -1,0 +1,698 @@
+[
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:40 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "Querying across project models"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:38 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "SQL Collector"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:41 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "Identifying links between data - Persons"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:44 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "Identifying links between data - Locations"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:45 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "OData feed"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:24 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "DEFINITION OF DONE (DoD)"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:24 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "DEFINITION OF READY (DoR)"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:25:31 +00:00",
+        "sprintName": "Backlog",
+        "sprintNumber": null,
+        "closedDate": null,
+        "title": "PRODUCT GOAL"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:01 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "SPRINT 1 GOAL: Establishing the project foundation and familiarize with Hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:49 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "GraphQL for existing data in Hobbes - 20 Story Points"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:53:55 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Create deployment pipeline"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:24 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Data modeling"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:42 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Implement querying"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:43 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Changes to existing data format to include metadata (searchable tags and type for GQL)"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:54:18 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Figure out how to get data from Hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:24 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Create a container with a service endpoint"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:25 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": null,
+        "title": "Change Kubernetes deployment to include new container"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:10 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": "04/06/2021 12:47:30 +00:00",
+        "title": "Setting up development environments"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:11 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": "04/06/2021 12:47:51 +00:00",
+        "title": "Get familiarized with technologies"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:02 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": "04/06/2021 12:50:03 +00:00",
+        "title": "Group documentation"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 13:19:09 +00:00",
+        "sprintName": "Sprint 1",
+        "sprintNumber": 1,
+        "closedDate": "04/06/2021 12:50:15 +00:00",
+        "title": "Scrum Team Agreement"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:43:47 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "SPRINT 2 GOAL: GraphQL & Project Foundation"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:40 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "GraphQL for existing data in Hobbes - 20 Story Points"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:36 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Create deployment pipeline"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:37 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Implement querying"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:38 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Changes to existing data format to include metadata (searchable tags and type for GQL)"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:39 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Figure out how to get data from Hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:21 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Data modeling"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:22 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Create a container with a service endpoint"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:23 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": null,
+        "title": "Change Kubernetes deployment to include new container"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:09 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/06/2021 12:47:30 +00:00",
+        "title": "Setting up development environments"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:09 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/06/2021 12:47:51 +00:00",
+        "title": "Get familiarized with technologies"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:15 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/06/2021 12:48:19 +00:00",
+        "title": "[ACTION] Review team agreement "
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:17 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/06/2021 12:48:37 +00:00",
+        "title": "[ACTION] Team building activities"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:31 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/07/2021 15:53:08 +00:00",
+        "title": "[ACTION] Status meeting"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:44:32 +00:00",
+        "sprintName": "Sprint 2",
+        "sprintNumber": 2,
+        "closedDate": "04/07/2021 15:53:10 +00:00",
+        "title": "[ACTION] Meeting after Sprint Planning"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 09:38:42 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "SRINT GOAL 3: Complete Deployment Pipeline"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 16:30:55 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "As an employee, I can query across projects included in Hobbes with a specific sprint, so that I can analyze sprints"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:46:14 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Changes to existing data format to include metadata (searchable tags and type for GQL)"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/09/2021 14:28:31 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Setting up a test environment."
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/09/2021 11:40:36 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Create tests for deplyoment"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 10:24:26 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Accessing real data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:46:59 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Create a container with a service endpoint"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:47:16 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": null,
+        "title": "Change Kubernetes deployment to include new container"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:45:21 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "05/05/2021 11:10:03 +00:00",
+        "title": "GraphQL for existing data in Hobbes - 13 Story Points"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 09:11:08 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/19/2021 18:16:01 +00:00",
+        "title": "[ACTION] Morning Meeting - 9 am"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:45:47 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/19/2021 18:16:03 +00:00",
+        "title": "Data modeling"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 12:46:00 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/19/2021 18:16:03 +00:00",
+        "title": "Implement querying"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/08/2021 08:24:33 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/19/2021 18:16:05 +00:00",
+        "title": "Figure out how to get data from Hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 09:12:15 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/16/2021 07:27:11 +00:00",
+        "title": "[ACTION] Team Communication"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 10:34:39 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/12/2021 13:48:47 +00:00",
+        "title": "Talk with Rune about pipeline"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 11:21:05 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/12/2021 13:48:48 +00:00",
+        "title": "Create YML file for build script in Azure pipeline"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/06/2021 16:30:34 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/12/2021 13:48:49 +00:00",
+        "title": "Build a deployment pipeline with Kubernetes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/14/2021 13:28:30 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/16/2021 07:34:38 +00:00",
+        "title": "[ACTION] Status meeting - 7/4"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/14/2021 13:30:15 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/16/2021 07:34:37 +00:00",
+        "title": "[ACTION] Status meeting - 14/4"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/16/2021 07:29:55 +00:00",
+        "sprintName": "Sprint 3",
+        "sprintNumber": 3,
+        "closedDate": "04/20/2021 10:13:08 +00:00",
+        "title": "[ACTION] Status meeting - 16/4"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:45:00 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "SPRINT GOAL 4: Getting tests running and creating a stub"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:45:03 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "Querying across project models"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 09:39:56 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "As a software developer board member, I want to be able to compare perfomance data across projects."
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 08:39:38 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "[Action] Breaks"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 08:55:38 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "Write test for GraphQL"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 09:22:33 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": null,
+        "title": "Figure out how to get data in a similar way to hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 08:39:32 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": "05/05/2021 11:09:55 +00:00",
+        "title": "[Action] Create new working groups"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 08:40:42 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": "05/05/2021 11:09:56 +00:00",
+        "title": "[Action] Knowledge sharing meeting"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/21/2021 09:29:53 +00:00",
+        "sprintName": "Sprint 4",
+        "sprintNumber": 4,
+        "closedDate": "05/05/2021 11:09:57 +00:00",
+        "title": "Creating a Stub for data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:56:33 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "SPRINT GOAL 5: Complete Querying across project models and creating test data for identifying links between data-persons"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:56:35 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Querying across project models - 5 story points"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 15:56:35 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Identifying links between data - Persons"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/05/2021 09:42:06 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Creating test data for identifying links between data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/07/2021 09:52:34 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Change the type structure so that it matches the test data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/05/2021 09:36:13 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Test if our implementation works with the test data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/05/2021 08:54:33 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "Write tests for GraphQL"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/07/2021 07:56:01 +00:00",
+        "sprintName": "Sprint 5",
+        "sprintNumber": 5,
+        "closedDate": null,
+        "title": "[Suggestion] Use Asanas api to get data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:40 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Identifying links between data - Locations"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:39 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Identifying links between data - Persons"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:25 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "SQL Collector"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:41 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "OData feed"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:23 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "SRINT GOAL 6: Complete Querying across project models. Deploy the tests for GraphQL and get data from Asana working with Hobbes"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "04/07/2021 16:05:38 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Querying across project models"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:58:31 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "[ACTION] Discuss reviewed DoD"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:58:36 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "[ACTION] Plan presentation work"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 09:26:28 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "[ACTION] Talk with PO about availability"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:33:52 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Change the type structure so that it matches the test data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:34:07 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Test if our implementation works with the test data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:35:16 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Write tests for GraphQL"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:38:51 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "Use Asanas api to get the data"
+    },
+    {
+        "projectName": "CFIX - ITU Project",
+        "createdDate": "05/19/2021 08:59:28 +00:00",
+        "sprintName": "Sprint 6",
+        "sprintNumber": 6,
+        "closedDate": null,
+        "title": "[ACTION] Meet at ITU"
+    }
+]
