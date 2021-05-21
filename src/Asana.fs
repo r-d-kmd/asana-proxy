@@ -202,6 +202,7 @@ module Asana =
     }]""", SampleIsList=true>
 
     type FlatTask = {
+        WorkitemId   : int64
         ProjectName  : string
         CreatedDate  : string
         SprintName   : string
@@ -260,6 +261,7 @@ module Asana =
             |> Seq.fold (fun acc smallTask -> List.append acc [(getTaskExpanded pat (string smallTask.Gid))]) []
             //|> Seq.map (fun task -> task.Data)
             |> Seq.map (fun task -> { Title = task.Data.Name
+                                      WorkitemId = task.Data.Gid
                                       ProjectName  = task.Data.Workspace.Name
                                       CreatedDate  = task.Data.CreatedAt.ToString ()
                                       ClosedDate   = match task.Data.CompletedAt with
